@@ -737,6 +737,10 @@ video {
   width: 24px;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .list-inside {
   list-style-position: inside;
 }
