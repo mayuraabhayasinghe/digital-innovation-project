@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="./output.css" rel="stylesheet" />
     <title>Gallery</title>
   </head>
@@ -65,40 +66,40 @@
     <div
       class="grid grid-flow-row-dense grid-cols-3 gap-4 px-[200px] py-[100px]"
     >
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design.png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (1).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (2).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (3).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (4).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (5).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (6).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (7).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (8).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (9).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (10).png" alt="" />
       </div>
-      <div class="object-cover h-auto">
+      <div data-aos="fade-up" class="object-cover h-auto">
         <img src="/images/Untitled design (12).png" alt="" />
       </div>
     </div>
@@ -191,5 +192,11 @@
       </p>
     </div>
     <!-- end of footer -->
+
+    <!-- for transitions  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
