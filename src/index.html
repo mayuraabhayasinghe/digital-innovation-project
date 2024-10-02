@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="./output.css" rel="stylesheet" />
     <title>Home</title>
   </head>
@@ -59,7 +60,7 @@
     <div
       class="w-full flex items-center justify-center px-[90px] py-[20px] h-auto bg-gradient-to-r from-indigo-200 via-indigo-50 to-indigo-100"
     >
-      <div class="w-[60%]">
+      <div data-aos="fade-up" data-aos-duration="800" class="w-[60%]">
         <h1 class="font-serif font-extrabold text-[60px]">
           We fix all your<br />
           <span class="text-blue-600">Plumbing </span> problems.
@@ -67,12 +68,13 @@
         <p
           class="font-serif w-[600px] my-[30px] font-normal text-black text-[18px]"
         >
-        At Dakyworld, we specialize in solving all your plumbing issues, 
-        from minor leaks to major pipe repairs. Our experienced team provides reliable,
-         efficient, and affordable plumbing solutions, ensuring your home or business stays safe 
-         and fully functional. Whether it's clogged drains, burst pipes, water heater repairs, 
-         or routine maintenance, we’ve got you covered with fast and professional service you 
-         can trust.
+          At Dakyworld, we specialize in solving all your plumbing issues, from
+          minor leaks to major pipe repairs. Our experienced team provides
+          reliable, efficient, and affordable plumbing solutions, ensuring your
+          home or business stays safe and fully functional. Whether it's clogged
+          drains, burst pipes, water heater repairs, or routine maintenance,
+          we’ve got you covered with fast and professional service you can
+          trust.
         </p>
         <button
           class="text-white py-[10px] px-[20px] bg-blue-600 hover:bg-blue-700"
@@ -81,6 +83,8 @@
         </button>
       </div>
       <img
+        data-aos="fade-up"
+        data-aos-duration="800"
         class="w-[900px] h-auto"
         src="/images/plumber-with-thumb-up-removebg-preview.png"
       />
@@ -92,10 +96,12 @@
       <h1 class="text-center text-[30px] font-serif font-semibold">
         Our <span class="text-blue-600">services</span>
       </h1>
-      <div class="mt-[90px] flex justify-center items-center gap-[50px]">
+      <div class="mt-[90px] flex justify-center items-start gap-[50px]">
         <!-- house plumbing card -->
         <div
-          class="w-[20%] p-[40px] relative font-serif h-auto shadow-2xl flex flex-col gap-[27px] items-center"
+          data-aos="zoom-in"
+          data-aos-duration="700"
+          class="w-[25%] p-[40px] relative font-serif h-auto shadow-2xl flex flex-col gap-[27px] items-center"
         >
           <div class="absolute top-[-25px] p-[10px] bg-[#E0EAFF] rounded-lg">
             <svg
@@ -114,14 +120,21 @@
             </svg>
           </div>
           <h2 class="font-semibold">House Plumbing</h2>
-          <p class="font-normal text-center" >
-            Our expert team provides comprehensive plumbing solutions for homes of all sizes. From installing new fixtures and appliances to fixing leaks, clogs, and drainage issues, we ensure your plumbing system runs smoothly. Whether you need kitchen and bathroom upgrades or emergency pipe repairs, we deliver fast, reliable, and efficient service to keep your household safe and comfortable
+          <p class="font-normal text-center">
+            Our expert team provides comprehensive plumbing solutions for homes
+            of all sizes. From installing new fixtures and appliances to fixing
+            leaks, clogs, and drainage issues, we ensure your plumbing system
+            runs smoothly. Whether you need kitchen and bathroom upgrades or
+            emergency pipe repairs, we deliver fast, reliable, and efficient
+            service to keep your household safe and comfortable
           </p>
         </div>
 
         <!-- company plumbing card -->
         <div
-          class="w-[20%] p-[40px] relative font-serif h-auto shadow-2xl flex flex-col gap-[27px] items-center"
+          data-aos="zoom-in"
+          data-aos-duration="700"
+          class="w-[25%] p-[40px] relative font-serif h-auto shadow-2xl flex flex-col gap-[27px] items-center"
         >
           <div class="absolute top-[-25px] p-[10px] bg-[#E0FFE7] rounded-lg">
             <svg
@@ -141,13 +154,20 @@
           </div>
           <h2 class="font-semibold">Company Plumbing</h2>
           <p class="font-normal text-center">
-            We offer professional plumbing services tailored to meet the needs of businesses and commercial properties. From routine maintenance to complex plumbing installations, our team works to ensure minimal disruption to your operations. We handle everything from office buildings to retail spaces, delivering high-quality solutions that keep your business running smoothly and efficiently.
+            We offer professional plumbing services tailored to meet the needs
+            of businesses and commercial properties. From routine maintenance to
+            complex plumbing installations, our team works to ensure minimal
+            disruption to your operations. We handle everything from office
+            buildings to retail spaces, delivering high-quality solutions that
+            keep your business running smoothly and efficiently.
           </p>
         </div>
 
         <!-- service card -->
         <div
-          class="w-[20%] p-[40px] relative font-serif h-auto shadow-2xl flex flex-col gap-[27px] items-center"
+          data-aos="zoom-in"
+          data-aos-duration="700"
+          class="w-[25%] p-[40px] relative font-serif h-auto shadow-2xl flex flex-col gap-[27px] items-center"
         >
           <div class="absolute top-[-25px] p-[10px] bg-[#FFE0E0] rounded-lg">
             <svg
@@ -167,7 +187,12 @@
           </div>
           <h2 class="font-semibold">Service and Repair</h2>
           <p class="font-normal text-center">
-            Our plumbing service and repair team is on call to handle all your urgent plumbing issues. From leaking faucets and running toilets to broken pipes and faulty water heaters, we provide prompt, affordable repairs with long-lasting results. With our experienced technicians and state-of-the-art equipment, we fix it right the first time, giving you peace of mind.
+            Our plumbing service and repair team is on call to handle all your
+            urgent plumbing issues. From leaking faucets and running toilets to
+            broken pipes and faulty water heaters, we provide prompt, affordable
+            repairs with long-lasting results. With our experienced technicians
+            and state-of-the-art equipment, we fix it right the first time,
+            giving you peace of mind.
           </p>
         </div>
       </div>
@@ -179,25 +204,32 @@
     >
       <img src="/images/plumber-with-his-arms-crossed-removebg-preview.png" />
 
-      <div class="w-[40%] flex flex-col gap-[20px]">
-        <h1 class="font-serif font-semibold text-[50px]">
+      <div class="w-[40%] pb-[60px] flex flex-col gap-[20px]">
+        <h1 data-aos="fade-left" class="font-serif font-semibold text-[50px]">
           Trusted <span class="text-blue-600">Plumbing</span><br />
           and <span class="text-blue-600">Repair</span> Services
         </h1>
-        <p class="font-sans font-light text-[20px]">
-          At Dakyworld, we pride ourselves on being your go-to source for dependable plumbing
-           solutions. Whether you're dealing with a minor leak, clogged drain, or a major plumbing
-            overhaul, our highly trained professionals are here to provide prompt, honest, 
-            and efficient service. With years of experience, we ensure your plumbing systems 
-            are installed and maintained to the highest standards, ensuring your peace of mind.
-            Our repair services are designed to address all your plumbing issues quickly and 
-            effectively. From fixing leaky faucets and broken pipes to addressing water heater 
-            malfunctions and sewer line problems, we provide reliable and long-lasting repairs. 
-            With our fast response times and skilled technicians, we diagnose and solve plumbing 
-            issues with precision, keeping your home or business running smoothly."
+        <p
+          data-aos="fade-up"
+          data-aos-duration="600"
+          class="font-sans font-light text-[20px]"
+        >
+          At Dakyworld, we pride ourselves on being your go-to source for
+          dependable plumbing solutions. Whether you're dealing with a minor
+          leak, clogged drain, or a major plumbing overhaul, our highly trained
+          professionals are here to provide prompt, honest, and efficient
+          service. With years of experience, we ensure your plumbing systems are
+          installed and maintained to the highest standards, ensuring your peace
+          of mind. Our repair services are designed to address all your plumbing
+          issues quickly and effectively. From fixing leaky faucets and broken
+          pipes to addressing water heater malfunctions and sewer line problems,
+          we provide reliable and long-lasting repairs. With our fast response
+          times and skilled technicians, we diagnose and solve plumbing issues
+          with precision, keeping your home or business running smoothly."
         </p>
 
         <div
+          data-aos="zoom-in"
           class="bg-white h-auto p-[10px] shadow-lg w-auto flex justify-center items-center gap-[60px] rounded-lg"
         >
           <div class="text-center text-gray-700">
@@ -218,7 +250,7 @@
     <!-- End of Trusted Plumbing and Repair Services-->
 
     <!-- Our projects -->
-    <div class="w-full bg-white py-[80px] px-[80px]">
+    <div class="w-full bg-white py-[80px] px-[200px]">
       <div class="flex flex-col items-center">
         <h1 class="font-serif font-semibold text-center text-[30px] text-black">
           Our <span class="text-blue-600">Projects</span>
@@ -238,11 +270,11 @@
               </h2>
               <div style="text-align: center;">
               <p class="font-sans font-thin text-[17px]">
-                In this full-home renovation project, we upgraded the plumbing system 
-                of a 50-year-old house, installing modern fixtures, a new water heater, 
-                and efficient piping throughout the home. Our team ensured the plumbing
-                 was up to code and provided seamless integration with the homeowner’s design 
-                 vision.
+                In this full-home renovation project, we upgraded the plumbing
+                system of a 50-year-old house, installing modern fixtures, a new
+                water heater, and efficient piping throughout the home. Our team
+                ensured the plumbing was up to code and provided seamless
+                integration with the homeowner’s design vision.
               </p>
             </div>
 
@@ -270,10 +302,11 @@
               </h2>
               <div style="text-align: center;">
               <p class="font-sans font-thin text-[17px]">
-                We partnered with a local office complex to redesign and modernize their
-                 plumbing system. The project included the installation of high-efficiency 
-                 restrooms, upgraded drainage systems, and water conservation solutions, 
-                 all while ensuring minimal disruption to daily business operations.
+                We partnered with a local office complex to redesign and
+                modernize their plumbing system. The project included the
+                installation of high-efficiency restrooms, upgraded drainage
+                systems, and water conservation solutions, all while ensuring
+                minimal disruption to daily business operations.
               </p>
             </div>
 
@@ -301,10 +334,11 @@
               </h2>
               <div style="text-align: center;">
               <p class="font-sans font-thin text-[17px]">
-                Our team completed a comprehensive repiping project for a multi-unit apartment 
-                complex. We replaced old, corroded pipes with durable, long-lasting materials, 
-                ensuring reliable water flow and reducing maintenance costs for the property 
-                owners while improving water quality for tenants.
+                Our team completed a comprehensive repiping project for a
+                multi-unit apartment complex. We replaced old, corroded pipes
+                with durable, long-lasting materials, ensuring reliable water
+                flow and reducing maintenance costs for the property owners
+                while improving water quality for tenants.
               </p>
             </div>
 
@@ -342,12 +376,12 @@
       </h1>
       <div class="pt-[70px] w-[50%] flex flex-col gap-[40px]">
         <p class="text-[25px] text-center font-sans font-thin">
-          <span class="font-serif text-blue-600">"</span>Excellent service from start
-           to finish! The team was professional, punctual, and solved our plumbing issue quickly.
-            They went above and beyond to ensure everything was perfect, and we couldn’t be
-             happier with the results. Highly recommend Dakyworld
-              for any plumbing needs!"
-          — John D., Satisfied Customer
+          <span class="font-serif text-blue-600">"</span>Excellent service from
+          start to finish! The team was professional, punctual, and solved our
+          plumbing issue quickly. They went above and beyond to ensure
+          everything was perfect, and we couldn’t be happier with the results.
+          Highly recommend Dakyworld for any plumbing needs!" — John D.,
+          Satisfied Customer
           <span class="font-serif text-blue-600">"</span>
         </p>
         <p class="text-center text-[30px] font-serif font-bold text-black">
@@ -458,5 +492,11 @@
       </p>
     </div>
     <!-- end of footer -->
+
+    <!-- for-transitions -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
