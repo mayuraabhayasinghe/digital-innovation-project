@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
@@ -63,13 +64,15 @@
       >
         <div class="w-full flex justify-center gap-[70px] items-center">
           <!-- images and others -->
-          <div class="relative">
+          <div data-aos="fade-up"
+          data-aos-duration="3000" class="relative">
             <img
               class="w-[600px] h-auto mb-[40px]"
               src="/images/side-view-woman-working-as-plumber.jpg"
             />
             <!-- our core values -->
-            <div
+            <div data-aos="fade-up"
+            data-aos-duration="3000"
               class="flex flex-col absolute bottom-[30px] right-[-40px] gap-[10px] text-[18px] bg-white p-[20px] px-[20px] shadow-lg rounded-lg"
             >
               <p class="font-serif font-medium text-black">Our Core Values</p>
@@ -103,7 +106,8 @@
           <!-- end of image and others -->
 
           <!-- topic and description -->
-          <div class="w-[40%]">
+          <div data-aos="fade-up"
+          data-aos-duration="3000" class="w-[40%]">
             <h1 class="font-serif text-[35px] font-semibold text-black">
               All about,<br />
               <span class="text-blue-600">Dakyworld Plumbing</span>
@@ -130,7 +134,8 @@
       <!-- end of section 1 -->
 
       <!-- section 2 -->
-      <div
+      <div data-aos="fade-up"
+      data-aos-duration="3000"
         class="w-full bg-white flex justify-center gap-[60px] items-center py-[50px] px-[150px]"
       >
         <img
@@ -188,7 +193,8 @@
       <!-- end of section 2 -->
 
       <!-- section 3 -->
-      <div
+      <div data-aos="fade-up"
+      data-aos-duration="3000"
         class="w-full bg-white flex justify-center gap-[60px] items-center py-[50px] px-[150px]"
       >
         <div>
@@ -303,5 +309,11 @@
       </p>
     </div>
     <!-- end of footer -->
+
+    <!-- for transitions  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
