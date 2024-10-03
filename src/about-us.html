@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
@@ -63,13 +64,15 @@
       >
         <div class="w-full flex justify-center gap-[70px] items-center">
           <!-- images and others -->
-          <div class="relative">
+          <div data-aos="fade-up" data-aos-duration="700" class="relative">
             <img
               class="w-[600px] h-auto mb-[40px]"
-              src="/images/side-view-woman-working-as-plumber.jpg"
+              src="../images/side-view-woman-working-as-plumber.jpg"
             />
             <!-- our core values -->
             <div
+              data-aos="fade-up"
+              data-aos-duration="700"
               class="flex flex-col absolute bottom-[30px] right-[-40px] gap-[10px] text-[18px] bg-white p-[20px] px-[20px] shadow-lg rounded-lg"
             >
               <p class="font-serif font-medium text-black">Our Core Values</p>
@@ -103,16 +106,25 @@
           <!-- end of image and others -->
 
           <!-- topic and description -->
-          <div class="w-[40%]">
+          <div data-aos="fade-up" data-aos-duration="700" class="w-[40%]">
             <h1 class="font-serif text-[35px] font-semibold text-black">
               All about,<br />
               <span class="text-blue-600">Dakyworld Plumbing</span>
             </h1>
             <p class="font-sans font-thin text-[18px]">
-              This is text element. Double click this element to edit text. You
-              can change size, position and all other parameters including
-              background, border and many more. You can also enable animation
-              for them so they will appear with selected effect on the webpage.
+              Dakyworld Plumbing is your go-to solution for all plumbing needs,
+              whether it’s for your home, business, or industrial site. We offer
+              a full range of services, ensuring your plumbing systems are
+              always running smoothly. Our team of experienced and certified
+              professionals is committed to delivering high-quality workmanship
+              and outstanding customer service. We pride ourselves on providing
+              prompt, reliable, and affordable services. Whether it’s a minor
+              leak, a major installation, or an emergency, Dakyworld Plumbing is
+              here to help.
+              <br /><b
+                >For more details, feel free to contact us or explore our
+                website to see how we can serve you!</b
+              >
             </p>
           </div>
           <!-- end of topic and description -->
@@ -122,11 +134,13 @@
 
       <!-- section 2 -->
       <div
+        data-aos="fade-up"
+        data-aos-duration="700"
         class="w-full bg-white flex justify-center gap-[60px] items-center py-[50px] px-[150px]"
       >
         <img
           class="w-[600px] h-auto"
-          src="/images/plumbing-professional-doing-job.jpg"
+          src="../images/plumbing-professional-doing-job.jpg"
         />
         <!-- description, mission and vision -->
         <div>
@@ -147,9 +161,12 @@
                 Our <span class="text-blue-600">Mission</span>
               </h1>
               <p class="text-black font-sans font-light text-[18px]">
-                This is text element. Double click this element to edit text.
-                You can change size, position and all other parameters including
-                background, border and many more.
+                We envision Dakyworld Plumbing as a leader in the plumbing
+                industry, recognized for our commitment to quality and
+                innovation. Our aim is to continuously grow and expand our
+                services while upholding the highest standards in customer
+                satisfaction, ensuring that every home and business enjoys
+                efficient, dependable plumbing systems.
               </p>
             </div>
 
@@ -159,9 +176,13 @@
                 Our <span class="text-blue-600">Vission</span>
               </h1>
               <p class="text-black font-sans font-light text-[18px]">
-                This is text element. Double click this element to edit text.
-                You can change size, position and all other parameters including
-                background, border and many more.
+                At Dakyworld Plumbing, our mission is to provide exceptional
+                plumbing services with integrity, professionalism, and
+                dedication. We strive to offer innovative and eco-friendly
+                solutions that not only meet but exceed our customers'
+                expectations. Our goal is to ensure the comfort, safety, and
+                satisfaction of every client by delivering fast, reliable, and
+                affordable plumbing services.
               </p>
             </div>
           </div>
@@ -195,7 +216,7 @@
             <li>24/7 emergency Service</li>
           </ul>
         </div>
-        <img class="w-[500px] h-auto" src="/images/testing-plumber.jpg" />
+        <img class="w-[500px] h-auto" src="../images/testing-plumber.jpg" />
       </div>
       <!-- end of section 3 -->
     </div>
@@ -204,7 +225,7 @@
     <!-- footer -->
     <div class="w-full bg-blue-500 px-[10%] pt-[80px] pb-[40px]">
       <div
-        class="grid grid-cols-3 justify-center items-start place-items-center"
+        class="grid items-start justify-center grid-cols-3 place-items-center"
       >
         <div class="flex flex-col gap-[20px] pb-[70px]">
           <p class="font-serif font-medium text-[30px] text-white">Dakyworld</p>
@@ -287,5 +308,11 @@
       </p>
     </div>
     <!-- end of footer -->
+
+    <!-- for transitions  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
